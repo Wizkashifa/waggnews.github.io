@@ -6,22 +6,20 @@ html {
 
 body {
 	color: #000000;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, sans-serif;
 }
 
 h1 {
-	font-family: Arial, sans-serif;
 	font-size: 48px;
     font-weight: bold;
 	color: #ffffff;
 }
 
 h2 {
-	font-family: Arial, sans-serif;
 	font-size: 24px;
 }
 
 p {
-	font-family: Arial, sans-serif;
 	font-size: 16px;
 }
 
@@ -32,11 +30,11 @@ p {
 
 #header h1 {
     padding: 20px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, sans-serif;
 }
 
 #menu {
     font-size: 24px;
-    font-family: Arial, sans-serif;
     font-weight: lighter;
     background-color: #be3a31;
     border-radius: 3px;
@@ -63,8 +61,87 @@ p {
     color: #ecf0f1;
 }
 
+#news-twitter {
+    font-size: 48px;
+    background-color: #c0392b;
+    height: 120px;
+    width: 24.7%;
+    display: inline-block;
+}
+
+#news-twitter a {
+    text-decoration: none;
+    color: #ecf0f1;;
+    position: relative;
+    padding: 20px;
+    top: 20px;
+}
+
+#politics-twitter {
+    font-size: 48px;
+    background-color: #2c3e50;
+    height: 120px;
+    width: 24.7%;
+    display: inline-block;
+}
+
+#politics-twitter a {
+    text-decoration: none;
+    color: #ecf0f1;;
+    position: relative;
+    padding: 20px;
+    top: 20px;
+}
+
+#business-twitter {
+    font-size: 48px;
+    background-color: #7f8c8d;
+    height: 120px;
+    width: 24.7%;
+    display: inline-block;
+}
+
+#business-twitter a {
+    text-decoration: none;
+    color: #ecf0f1;
+    position: relative;
+    padding: 20px;
+    top: 20px;
+}
+
+#tech-twitter {
+    font-size: 48px;
+    background-color: #2980b9;
+    height: 120px;
+    width: 24.7%;
+    display: inline-block;
+}
+
+#tech-twitter a {
+    text-decoration: none;
+    color: #ecf0f1;
+    position: relative;
+    padding: 20px;
+    top: 20px;
+}
+
+#sport-twitter {
+    font-size: 48px;
+    background-color: #f39c12;
+    height: 120px;
+    width: 60%;
+    display: inline-block;
+}
+
+#sport-twitter a {
+    text-decoration: none;
+    color: #ecf0f1;
+    position: relative;
+    padding: 20px;
+    top: 20px;
+}
+
 footer {
-	font-family: Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
     width: 100%;
